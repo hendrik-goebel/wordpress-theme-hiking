@@ -1,0 +1,60 @@
+/**
+ *   Hide navbar on scroll down
+ *   https://bootstrap-menu.com/detail-smart-hide.html
+ */
+.smart-scroll{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.scrolled-down{
+    transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+    transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+
+/**
+ * Mega menu
+ */
+@media all and (min-width: 992px) {
+    .navbar{ padding-top: 0; padding-bottom: 0; }
+    .navbar .has-megamenu{position:static!important;}
+    .navbar .megamenu{left:0; right:0; width:100%; padding:20px;  }
+    .navbar .nav-link{ padding-top:1rem; padding-bottom:1rem;  }
+}
+
+
+.keyvisual-slider-container .carousel-inner {
+    width:100%;
+    max-height: 500px !important;
+}
+.keyvisual-container {
+    width:100%;
+    max-height: 500px !important;
+    overflow: hidden;
+}
+
+.header-container-in-keyvisual1 {
+    position: absolute;
+    top: -235px;
+    left: 127px;
+    width: 100%;
+    z-index: 10;
+}
+
+.parallax {
+    /* The image used */
+
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

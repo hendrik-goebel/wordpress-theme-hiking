@@ -1,2 +1,2 @@
 # wordpress-theme-hiking
-A wordpress theme 
+ a bootstrap based wordpress theme for a hiking club.
